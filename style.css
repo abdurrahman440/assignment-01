@@ -159,12 +159,14 @@ text-transform: capitalize;
  overflow: hidden;
  object-fit: cover;
 
+ 
 }
 .card-2{
-    background-color: rgb(31, 30, 30);
+   
     color: aliceblue;
     overflow: hidden;
     border-radius: 10px;
+      background-color: rgb(31, 30, 30);
 }
 .button-1{
 
@@ -198,20 +200,8 @@ font-weight: bold;
 border-radius: 10px;
 color: rgb(0, 0, 0);
 
-}
+ }
 .category-1{
-    font-size:40px;
-    margin-bottom: 8px;
-}
-.category-2{
-    color: #3366ff;
-    font-size: small;
-  margin-top: 0;
-}
-.card-info p{
-
-    margin: 0;
-}
-.card-info h3{
-    margin: 2px 0;
+    font-size:60px;
+    margin-bottom: 10px;
 }
