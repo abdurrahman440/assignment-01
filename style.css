@@ -133,3 +133,85 @@ width: 100%;
     margin-bottom:8px;
 
 } 
+/* pricing section start */
+
+.card{
+    width: 80%;
+    margin: 80px auto;
+}
+.head {
+    text-align: center;
+    margin-bottom: 40px;
+text-transform: capitalize;
+}
+
+.card-container{
+
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+}
+.card-info{
+
+ border: 2px solid rgb(204, 237, 241);
+ border-radius: 10px;
+ padding: 10px;
+ overflow: hidden;
+ object-fit: cover;
+
+}
+.card-2{
+    background-color: rgb(31, 30, 30);
+    color: aliceblue;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.button-1{
+
+width: 80%;
+margin-left: 20px;
+background-color: white;
+color: blue;
+border: 2px solid blue;
+font-weight: bold;
+border-radius: 10px;
+}
+.button-2{
+    width: 80%;
+margin-left: 20px;
+/* background-color: white; */
+color: blue;
+border: 2px solid blue;
+font-weight: bold;
+border-radius: 10px;
+color: white;
+
+}
+
+.button-3{
+    width: 80%;
+margin-left: 20px;
+background-color: white;
+color: blue;
+border: 2px solid blue;
+font-weight: bold;
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+}
+.category-1{
+    font-size:40px;
+    margin-bottom: 8px;
+}
+.category-2{
+    color: #3366ff;
+    font-size: small;
+  margin-top: 0;
+}
+.card-info p{
+
+    margin: 0;
+}
+.card-info h3{
+    margin: 2px 0;
+}
